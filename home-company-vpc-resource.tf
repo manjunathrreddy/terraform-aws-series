@@ -36,6 +36,5 @@ resource "aws_vpc" "home_company_vpc" {
   database_subnet_tags = {
     Type = "Private Database Subnets"
   }
-  tags = local.common_tags
-  vpc_tags = local.common_tags
+
 }
