@@ -24,7 +24,7 @@ resource "aws_vpc" "home_company_vpc" {
 
 
   vpc_tags = local.common_tags
-  tags = local.common_tags
+ // tags = local.common_tags
 
   # Additional Tags to Subnets
   public_subnet_tags = {
