@@ -11,9 +11,9 @@ variable "environment" {
   type = string
   default = "dev"
 }
-# Business Division
-variable "business_divsion" {
+# Home Company details
+variable "home_company" {
   description = "Business Division in the large organization this Infrastructure belongs"
   type = string
-  default = "sap"
+  default = "sweet-home"
 }
